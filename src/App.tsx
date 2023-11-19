@@ -1,10 +1,8 @@
-import { Button } from 'antd';
-console.log('🚀 ~ file: App.tsx:2 ~ Button:', Button);
+import axiosConfig from './modules/common/api/axios'
 
-const App = () => (
-  <div className="App">
-    <Button type="primary">Button</Button>
-  </div>
-);
+const App = () => {
+  axiosConfig()
+  return <div className="App">lorem</div>
+}
 
-export default App;
+export default App
