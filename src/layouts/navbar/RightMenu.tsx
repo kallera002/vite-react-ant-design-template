@@ -11,7 +11,8 @@ const RightMenu: React.FC<MenuMode> = ({ mode }) => {
             <Avatar icon={<UserOutlined />} />
             <span className="username">John Doe</span>
           </>
-        }>
+        }
+      >
         <Menu.Item key="project">
           <CodeOutlined /> Projects
         </Menu.Item>
